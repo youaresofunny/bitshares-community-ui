@@ -1,8 +1,8 @@
-[<template>
+<template>
   <div class="components">
     This is an components page
     <div>
-      <Button text="button test" size="small" loading disabled/>
+      <Button text="test button"/>
     </div>
     <div>
       <Input value="test input"/>
@@ -19,4 +19,3 @@ export default {
   components: { Button, Input }
 }
 </script>
-]
